@@ -26,6 +26,9 @@ You will need a basic understanding of HTML, CSS, and JavaScript to use this aut
 
 1. **Include the necessary HTML structure in your file:**
    - Add an input field and a list element in your HTML to serve as the autocomplete input and suggestions list.
+  
+   - `<input type="text" class="autocomplete-input form-control mb-2" data-list="fruits" placeholder="Start typing...">`
+     `<ul class="autocomplete-list list-group mb-4"></ul> `
 
 2. **Create the `styles.css` file for basic styling:**
    - Define basic CSS styles to make the autocomplete list look presentable.

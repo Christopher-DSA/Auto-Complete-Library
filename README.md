@@ -41,3 +41,10 @@ You will need a basic understanding of HTML, CSS, and JavaScript to use this aut
 
 5. **Initialize the autocomplete:**
    - Call the initialization function after the DOM content has loaded, passing in your data sets.
+  
+   - ```  
+        const dataSets = {
+            fruits: ["Apple", "Banana", "Orange", "Mango", "Pineapple", "Pikeapple"],
+            vegetables: ["Carrot", "Broccoli", "Spinach", "Potato", "Cucumber"]
+        };
+
